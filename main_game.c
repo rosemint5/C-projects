@@ -26,7 +26,7 @@ int main() {
 
     if (pid == 0) {
         // Dziecko zaczyna grę
-        execlp("./3zad2_gra", "3zad2_gra", NULL);
+        execlp("./game", "game", NULL);
         perror("execlp");
         exit(EXIT_FAILURE);
     }
